@@ -1,0 +1,4 @@
+com\api\config\ConfigManager.class
+com\api\wrapper\Booking.class
+com\api\wrapper\BookingDates.class
+com\api\wrapper\RestfulBookerAPI.class
