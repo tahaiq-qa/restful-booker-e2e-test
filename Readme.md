@@ -3,12 +3,18 @@
 Project Structure:
 
 src/main/java/com/api/ – Main source code
+
 src/main/java/com/api/config/ – Manages configuration settings
+
 src/main/java/com/api/wrapper – API wrapper
+
 src/main/resources/ – Project Resources
+
 src/test/java/com/api/tests/ – API test classes
+
    BookingTest.java - End-to-End Test
    RestfulBookerAPITest.java  - Mock Test
+   
 pom.xml – Maven project file for dependencies and build configuration
 
 # API Testing Framework #
