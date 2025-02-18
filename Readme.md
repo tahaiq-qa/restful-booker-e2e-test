@@ -31,13 +31,11 @@ Before running the tests, ensure that the following tools are installed on your 
 
   Verify Installation
   
-After installing, check the versions again:
-
 java -version
+
 mvn -version
 
 If both return valid versions, you're good to go! 🚀
-
 
 ### 1. Clone the Repository ###
 
