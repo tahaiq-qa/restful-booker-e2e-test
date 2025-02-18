@@ -46,8 +46,6 @@ git clone https://github.com/tahaiq-qa/restful-booker-e2e-test.git
 
 2. Navigate to the Project Directory
    
-cd restful-booker-tests
-
 3. Run Tests with Maven
    
 Option 1: Full Build (Clean, Compile, Test, and Install)
