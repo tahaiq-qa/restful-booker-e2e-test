@@ -22,7 +22,7 @@ src/test/java/com/api/tests/ – API test classes
 
 pom.xml – Maven project file for dependencies and build configuration
 
-# API Testing Framework
+# API Testing Framework #
 
 This repository contains an API testing framework built using **RestAssured**, **TestNG**, **Mockito**, and **Maven** for automating the testing of RESTful APIs.
 
