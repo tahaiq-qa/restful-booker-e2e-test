@@ -1,23 +1,26 @@
-├───src
-│   ├───main
-│   │   ├───java
-│   │   │   └───com
-│   │   │       └───api
-│   │   │           ├───config   
-│   │   │           │   └───ConfigManager.java
-│   │   │           └───wrapper  
-│   │   │               ├───Booking.java
-│   │   │               ├───BookingDates.java
-│   │   │               └───RestfulBookerAPI.java
-│   │   └───resources            # Resources used in the project (e.g., test data)
-│   │       ├───config.properties  # Configuration properties
-│   │       └───testdata.json      # Test data for the tests
-│   └───test
-│       └───java
-│           └───com
-│               └───api
-│                   └───tests    # Test classes for API tests
-└───pom.xml                      # Maven project file
+
+
+Project Structure:
+
+src/main/java/com/api/ – Main source code
+
+src/main/java/com/api/config/ – Manages configuration settings
+   ConfigManager.java 
+
+src/main/java/com/api/wrapper – API wrapper
+  Booking.java – Represents a booking entity
+  BookingDates.java – Handles booking date details
+  RestfulBookerAPI.java – API interactions for Restful Booker
+  
+src/main/resources/ – Project Resources
+   config.properties – Configuration settings
+   testdata.json – Test data file
+   
+src/test/java/com/api/tests/ – API test classes
+   BookingTest.java - End-to-End Test
+   RestfulBookerAPITest.java  - Mock Test
+
+pom.xml – Maven project file for dependencies and build configuration
 
 # API Testing Framework
 
