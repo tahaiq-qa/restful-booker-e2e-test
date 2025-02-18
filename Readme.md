@@ -41,24 +41,28 @@ Before running the tests, ensure that the following tools are installed on your 
 
 Clone the repository using Git:
 
-```bash
-git clone https://github.com/tahaiq-qa/restful-booker-e2e-test
+Setup and Run Tests
+Prerequisites
+Before running the tests, ensure the following tools are installed on your system:
 
-### 2. Navigate to the Project Directory
+Java 8+ – Required to run the tests
+Maven – For managing project dependencies and builds
 
-```bash
+1. Clone the Repository
+Use Git to clone the repository:
+git clone https://github.com/tahaiq-qa/restful-booker-e2e-test.git
+
+2. Navigate to the Project Directory
 cd restful-booker-tests
 
+3. Run Tests with Maven
+   
+Option 1: Full Build (Clean, Compile, Test, and Install)
 
-### 3. Run Test with Maven
-
-```bash
-# To clean, compile, run tests, and install the artifacts
 mvn clean install
 
-### OR ###
+Option 2: Run Tests Only
 
-# To run the tests
-mvn  test
+mvn test
 
 
