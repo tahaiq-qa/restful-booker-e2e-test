@@ -13,6 +13,7 @@ src/main/resources/ – Project Resources
 src/test/java/com/api/tests/ – API test classes
 
    BookingTest.java - End-to-End Test
+   
    RestfulBookerAPITest.java  - Mock Test
    
 pom.xml – Maven project file for dependencies and build configuration
