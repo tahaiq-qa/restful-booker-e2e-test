@@ -37,18 +37,10 @@ Before running the tests, ensure that the following tools are installed on your 
 - **Java 8+**: Required to run the tests.
 - **Maven**: For managing project dependencies and builds.
 
-### 1. Clone the Repository
+### 1. Clone the Repository ###
 
 Clone the repository using Git:
 
-Setup and Run Tests
-Prerequisites
-Before running the tests, ensure the following tools are installed on your system:
-
-Java 8+ – Required to run the tests
-Maven – For managing project dependencies and builds
-
-1. Clone the Repository
 Use Git to clone the repository:
 git clone https://github.com/tahaiq-qa/restful-booker-e2e-test.git
 
