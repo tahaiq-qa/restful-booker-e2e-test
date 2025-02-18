@@ -22,20 +22,22 @@ pom.xml – Maven project file for dependencies and build configuration
 
 This repository contains an API testing framework built using **RestAssured**, **TestNG**, **Mockito**, and **Maven** for automating the testing of RESTful APIs.
 
-## Technologies Used
-
-- **RestAssured**: A Java library for testing REST APIs.
-- **TestNG**: A testing framework used for running and managing tests.
-- **Mockito**: A framework used to mock API responses for unit testing.
-- **Maven**: A build automation tool that manages dependencies and builds the project.
-- **Jackson**: For parsing JSON data.
-
 ## Prerequisites
 
 Before running the tests, ensure that the following tools are installed on your system:
 
 - **Java 8+**: Required to run the tests.
 - **Maven**: For managing project dependencies and builds.
+
+  Verify Installation
+  
+After installing, check the versions again:
+
+java -version
+mvn -version
+
+If both return valid versions, you're good to go! 🚀
+
 
 ### 1. Clone the Repository ###
 
